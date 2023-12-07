@@ -1,4 +1,8 @@
 function decimalToBinary(num) {
+
+	if(num === 0){
+		return 0;
+	}
   // your code here
 	let result = "";
 
@@ -11,4 +15,4 @@ function decimalToBinary(num) {
 	return result;
 }
 const num = parseInt(prompt("Enter a number."));
-alert(decimalToBinary(num));
+alert(decimalToBinary(num))
